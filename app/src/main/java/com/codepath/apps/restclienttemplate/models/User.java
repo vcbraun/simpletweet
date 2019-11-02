@@ -5,7 +5,7 @@ import org.json.JSONObject;
 
 public class User {
 
-    String name;
+    public String name;
     public String screenName;
     public String imgURL;
 
