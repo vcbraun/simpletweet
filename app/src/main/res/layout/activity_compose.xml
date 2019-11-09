@@ -14,11 +14,12 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
-        android:layout_marginBottom="5dp"
         android:ems="10"
         android:gravity="start|top"
         android:hint="@string/hint"
         android:inputType="textMultiLine"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
         android:minLines="5" />
 
     <Button
@@ -30,4 +31,14 @@
         android:layout_marginTop="5dp"
         android:layout_marginEnd="5dp"
         android:text="@string/tweet" />
+
+    <TextView
+        android:id="@+id/tvChars"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etCompose"
+        android:layout_marginStart="10dp"
+        android:text="0/140"
+        android:textColor="#8D8D8D"
+        tools:text="0/0" />
 </RelativeLayout>
